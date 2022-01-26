@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FashionNebel</title>
+  </head>
+  <body
+    class="main"
+    style="
+      margin: 0px;
+      padding: 0px;
+      background-image: url('assets/images/background1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Montserrat', sans-serif;
+      color: #6d6868;
+    "
+  >
+    <table style="padding: 0; margin: 0; height: 100vh; width: 100%">
+      <tr style="height: 100%">
+        <style>
+          @media (orientation: portrait) {
+            .banner {
+              display: none;
+            }
+            .form {
+              font-size: 20px;
+              width: 100vw;
+              height: 100vh;
+            }
+          }
+          @media (orientation: landscape) {
+            .banner {
+              height: 100vh;
+              width: 50vw;
+            }
+            .product {
+              width: 100%;
+              height: 100vh;
+              background-size: cover;
+            }
+            .form {
+              width: 50vw;
+              height: 100vh;
+            }
+          }
+        </style>
+        <td class="banner">
+          <img src="assets/images/bgsignin.png" class="product" alt="dress" />
+        </td>
+        <td
+          class="form"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          "
+        >
+          <a href="index.html" style="text-decoration: none"
+            ><h1 style="color: #c77f65">FashionNebel</h1></a
+          >
+          <div
+            style="
+              width: 50%;
+              padding: 2rem 4rem 2rem 4rem;
+              height: max-content;
+              border-radius: 10px;
+              background-color: white;
+              align-self: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <h3>Sign In Now</h3>
+            <p>
+              Already have a FashionNebel account?<a
+                href="sign_up.html"
+                style="color: #c77f65; text-decoration: none"
+              >
+                Sign Up</a
+              >!
+            </p>
+            <div style="display: flex; flex-direction: row; width: 100%">
+              <a
+                href="https://www.facebook.com/"
+                style="margin-right: 0.5em; text-decoration: none; width: 50%"
+              >
+                <div
+                  class="api_bUtton"
+                  style="
+                    width: 90%;
+                    height: 2em;
+                    padding: 0.5em;
+                    border: 1px solid #6d6868;
+                    border-radius: 0.5em;
+                    display: flex;
+                    flex-direction: row;
+                  "
+                >
+                  <div>
+                    <img
+                      src="assets/images/fb.svg"
+                      style="margin-right: 0.5em"
+                    />
+                  </div>
+                  <div
+                    style="width: 100%; align-self: center; text-align: center"
+                  >
+                    <h6>Facebook</h6>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                style="margin-left: 0.5em; text-decoration: none; width: 50%"
+              >
+                <div
+                  class="api_bUtton"
+                  style="
+                    width: 90%;
+                    height: 2em;
+                    padding: 0.5em;
+                    border: 1px solid #6d6868;
+                    border-radius: 0.5em;
+                    display: flex;
+                    flex-direction: row;
+                  "
+                >
+                  <div>
+                    <img
+                      src="assets/images/gg.svg"
+                      style="margin-right: 0.5em"
+                    />
+                  </div>
+                  <div
+                    style="width: 100%; align-self: center; text-align: center"
+                  >
+                    <h6>Google</h6>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <hr style="width: 95%; margin-top: 1.5em; margin-bottom: 1em" />
+            <form style="width: 100%">
+              <label
+                style="
+                  margin: 0;
+                  margin-bottom: 0.5em;
+                  margin-left: 1em;
+                  font-size: 0.8em;
+                "
+                >Phone or Email</label
+              >
+              <input
+                type="text"
+                style="
+                  width: 96%;
+                  height: 4em;
+                  padding-left: 1em;
+                  border: 1px solid #6d6868;
+                  border-radius: 1em;
+                "
+              />
+              <label
+                style="
+                  margin: 0;
+                  margin-bottom: 0.5em;
+                  margin-left: 1em;
+                  margin-top: 0.8em;
+                  font-size: 0.8em;
+                "
+                >Password</label
+              >
+              <input
+                type="password"
+                style="
+                  width: 96%;
+                  height: 4em;
+                  padding-left: 1em;
+                  border: 1px solid #6d6868;
+                  border-radius: 1em;
+                "
+              />
+              <button
+                type="submit"
+                style="
+                  width: 100%;
+                  height: 4em;
+                  margin-top: 1em;
+                  border: 0;
+                  background: none;
+                  box-shadow: none;
+                  border-radius: 1em;
+                  background-color: #c77f65;
+                  color: white;
+                "
+              >
+                <h3>Sign In</h3>
+              </button>
+            </form>
+          </div>
+          <h6>Copyright &copy; 2021. FashionNebel</h6>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
